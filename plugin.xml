@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.4"?><plugin>
+       
+    <extension id="product" point="org.eclipse.core.runtime.products">
+              
+        <product application="org.eclipse.e4.ui.workbench.swt.E4Application" name="com.garraio.cordoba.application">
+                     
+            <property name="applicationCSS" value="platform:/plugin/com.garraio.cordoba.application/css/default.css">
+         </property>
+                     
+            <property name="appName" value="com.garraio.cordoba.application">
+         </property>
+                  
+        </product>
+           
+    </extension>
+    
+    
+</plugin>

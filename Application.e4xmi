@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="com.garraio.cordoba.application.application" bindingContexts="_6wlLecgZEeSyMNYR5xypkQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="com.garraio.cordoba.application.window.main" label="Cordoba Application" iconURI="platform:/plugin/com.garraio.cordoba.application/icons/Window/Cordoba.jpeg">
+    <tags>shellMaximized</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="com.garraio.cordoba.application.partsashcontainer.sample" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="com.garraio.cordoba.application.partstack.sample" containerData="1500">
+        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="com.garraio.cordoba.application.part.sample" contributionURI="bundleclass://com.garraio.cordoba.application/com.garraio.cordoba.application.ui.parts.ElementTreePart" label="Element Tree" iconURI="platform:/plugin/com.garraio.cordoba.application/icons/Window/tree.gif"/>
+      </children>
+      <children xsi:type="basic:PartSashContainer" xmi:id="_p4YuoPAwEe-ZscwV-E_WrA" elementId="cordoba application.partsashcontainer.0">
+        <children xsi:type="basic:PartStack" xmi:id="_AM3dUPAxEe-ZscwV-E_WrA" elementId="cordoba application.partstack.0" containerData="8000">
+          <children xsi:type="basic:Part" xmi:id="_CwG2IPAxEe-ZscwV-E_WrA" elementId="cordoba application.part.properties" contributionURI="bundleclass://com.garraio.cordoba.application/com.garraio.cordoba.application.ui.parts.PropertiesPart" label="Properties" iconURI="platform:/plugin/com.garraio.cordoba.application/icons/Window/properties.png"/>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_A-bdIPAxEe-ZscwV-E_WrA" elementId="cordoba application.partstack.1">
+          <children xsi:type="basic:Part" xmi:id="_EYP4oPAxEe-ZscwV-E_WrA" elementId="cordoba application.part.logger" contributionURI="bundleclass://com.garraio.cordoba.application/com.garraio.cordoba.application.ui.parts.LoggerPart" label="Logger" iconURI="platform:/plugin/com.garraio.cordoba.application/icons/Window/Log.gif"/>
+          <children xsi:type="basic:Part" xmi:id="_GX6qUPAxEe-ZscwV-E_WrA" elementId="cordoba application.part.path" contributionURI="bundleclass://com.garraio.cordoba.application/com.garraio.cordoba.application.ui.parts.PathPart" label="Path" iconURI="platform:/plugin/com.garraio.cordoba.application/icons/Window/references_16.png"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_6wlLisgZEeSyMNYR5xypkQ" elementId="file" label="File">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_JImMwPAyEe-ZscwV-E_WrA" elementId="cordoba application.directmenuitem.open" label="Open" contributionURI=""/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_LgPZkPAyEe-ZscwV-E_WrA" elementId="cordoba application.directmenuitem.save" label="Save"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_M0sEAPAyEe-ZscwV-E_WrA" elementId="cordoba application.directmenuitem.quit" label="Quit"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_bJregPAwEe-ZscwV-E_WrA" elementId="cordoba application.menu.generate" label="Generate">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_PGUvcPAyEe-ZscwV-E_WrA" elementId="cordoba application.directmenuitem.cfile" label="C File"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_Q-a5gPAyEe-ZscwV-E_WrA" elementId="cordoba application.directmenuitem.arxmlfile" label="ARXML File"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_eKPFcPAwEe-ZscwV-E_WrA" elementId="cordoba application.menu.setting" label="Setting">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_TZcKcPAyEe-ZscwV-E_WrA" elementId="cordoba application.directmenuitem.changexsd" label="Change XSD"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_6wlLjsgZEeSyMNYR5xypkQ" elementId="help" label="Help">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_XhNREPAyEe-ZscwV-E_WrA" elementId="cordoba application.directmenuitem.about" label="About"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_6wlLlcgZEeSyMNYR5xypkQ" elementId="com.garraio.cordoba.application.trimbar.top">
+      <children xsi:type="menu:ToolBar" xmi:id="_6wlLlsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_fbzlkPAxEe-ZscwV-E_WrA" elementId="cordoba application.directtoolitem.generatexml" label="GenerateXML" iconURI="platform:/plugin/com.garraio.cordoba.application/icons/Buttons/Capture.png" contributionURI="bundleclass://com.garraio.cordoba.application/com.garraio.cordoba.application.ui.handlers.GenerateARXMLHandler"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_akTEEPAxEe-ZscwV-E_WrA" elementId="cordoba application.directtoolitem.generatec" label="GenerateC" iconURI="platform:/plugin/com.garraio.cordoba.application/icons/Buttons/generate.png" contributionURI="bundleclass://com.garraio.cordoba.application/com.garraio.cordoba.application.ui.handlers.GenerateCHandler"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_X7vtcPAxEe-ZscwV-E_WrA" elementId="cordoba application.directtoolitem.save" label="Save" iconURI="platform:/plugin/com.garraio.cordoba.application/icons/Buttons/save.png" contributionURI="bundleclass://com.garraio.cordoba.application/com.garraio.cordoba.application.ui.handlers.SaveProjectHandler"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_oJvSQBhCEfCrGo06h_vgfA" elementId="cordoba-application.handler.saveFormHandler" contributionURI="bundleclass://com.garraio.cordoba.application/com.garraio.cordoba.application.ui.handlers.SaveFormHandler" command="_HM6E0BhCEfCrGo06h_vgfA"/>
+  <bindingTables xmi:id="_6wlLfsgZEeSyMNYR5xypkQ" elementId="com.garraio.cordoba.application.bindingtable" bindingContext="_6wlLecgZEeSyMNYR5xypkQ">
+    <bindings xmi:id="_tKbk8BhCEfCrGo06h_vgfA" elementId="cordoba-application.keybinding.saveFormBinding" keySequence="M1+S" command="_HM6E0BhCEfCrGo06h_vgfA"/>
+  </bindingTables>
+  <rootContext xmi:id="_6wlLecgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_6wlLesgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_6wlLe8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_HM6E0BhCEfCrGo06h_vgfA" elementId="cordoba-application.command.saveFormCommand" commandName="saveForm" description="Save the current form on ctrl + S"/>
+  <addons xmi:id="_6wlLcsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_6wlLc8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_6wlLdMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_6wlLdcgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_6wlLdsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_6wlLd8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_6wlLeMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
