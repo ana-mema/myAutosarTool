@@ -1,0 +1,57 @@
+/* Global styles */
+* {
+    font-family: 'Segoe UI', 'SF Pro Text', Roboto, Arial, sans-serif;
+}
+
+Shell {
+    background-color: #ffffff;
+}
+
+CTabFolder { 
+	border-visible: false; 
+	swt-maximize-visible: false; 
+	swt-minimize-visible: false;
+	swt-tab-renderer: url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+	swt-unselected-tabs-color: #ffffff;
+	swt-outer-keyline-color: #e0e0e0;
+	swt-selected-tab-fill: #f9fbfe;; 
+	swt-tab-outline: #e0e0e0;
+}
+
+.MPartSashContainer {
+	background-color: #f9fbfe;
+	
+}
+
+.MTrimmedWindow {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.MPartStack {
+    padding: 3px;
+}
+
+#formTitle {
+    font-weight: bold;
+    font-size: 12px;
+/*    color: #333333;*/
+	color: #666666; 
+}
+
+#subTitle {
+    font-weight: bold;
+    font-size: 11px;
+    color: #666666; 
+	margin: 0px;
+	padding: 0px;
+}
+
+Table {
+    font-size: 9px;
+    padding: 5px; 
+	font-weight: normal;
+
+}
